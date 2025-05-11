@@ -1,0 +1,56 @@
+"Resource/UI/HudDamageAccount.res"
+{
+	"CDamageAccountPanel"
+	{
+		"fieldName"				"CDamageAccountPanel"
+		"text_x"				"0"
+		"text_y"				"0"
+		"delta_item_end_y"		"0"
+		"PositiveColor"			"Garm3nHUDRealGreen"
+		"NegativeColor"			"Garm3nHUDDamage"
+		"delta_lifetime"		"2.0"
+		"delta_item_font"	"HudFontGarm3nSmallOutline"
+		"delta_item_font_big"	"HudFontGarm3nSmallOutline"
+	}
+
+	"DamageAccountBackground"	
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MainBG"
+		"xpos"			"c-248"
+		"ypos"			"r77"
+		"xpos_minmode"			"c-204"
+		"ypos_minmode"			"r147"
+		"zpos"			"-1"
+		"wide"			"62"
+		"tall"			"32"
+		"wide_minmode"			"49"
+		"tall_minmode"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"		"TFThinLineBorder"
+	}
+
+	"DamageAccountValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DamageAccountValue"
+		"xpos"			"c-248"
+		"ypos"			"r76"
+		"xpos_minmode"			"c-204"
+		"ypos_minmode"			"r147"
+		"zpos"			"2"
+		"wide"			"62"
+		"tall"			"31"
+		"wide_minmode"			"49"
+		"tall_minmode"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%metal%"
+		"delta_lifetime"		"10.0"
+		"textAlignment"	"center"
+		"fgcolor"		"Garm3nHUDDamage"
+		"font"			"HudFontGarm3nSmall"
+		"font_minmode"	"HudFontGarm3nAmmoReserv2"
+	}
+}
